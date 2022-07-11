@@ -1,0 +1,62 @@
+
+
+.posts{
+margin-top: 5rem;
+width: 100%;
+height: calc(100vh-80px);
+display: grid;
+place-items: center;
+}
+.posts-container{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    background-color: #203040;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-container h1{
+    text-align: center;
+}
+.posts-container label{
+    font-size: 25px
+}
+
+.posts-container .inputGP{
+    margin-top: 30PX;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGp input,
+.inputGp textarea{
+    font-size: 18PX;
+    width: 100%;
+    border: none;
+    border-radius: 2PX;
+    padding: 5PX;
+}
+
+.inputGp input{
+    height: 40px;
+}
+
+.inputGp textarea{
+    height: 150px;
+}
+
+.posts-container button{
+    margin-top: 2opx;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input, textarea{
+    margin-top: 5px;
+}

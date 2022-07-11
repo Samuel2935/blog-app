@@ -1,0 +1,75 @@
+body{
+    /* background-color: whitesmoke; */
+  
+}
+
+
+
+.home-page{
+    width: 100%;
+    min-height: calc(100vh-80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.poster{
+
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.title{
+    display: flex;
+  
+}
+
+.home-page .poster{
+    width: 80%;
+    height: auto;
+    max-height: 600px;
+    box-shadow: rgba(0 , 0, 0, .24), 0px 3px 8px;
+    background-color: rgba(250 , 250, 250 );
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.poster .posterHeader{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.posterHeader .title{
+    flex: 50%;
+
+
+}
+
+
+
+.deletePost button {
+    border: none;
+    background: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 5rem;
+
+}
+
+.poster .postContainer{
+    word-wrap: break-word;
+    height: auto;
+    max-height: 400px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
